@@ -115,7 +115,7 @@ open class KolodaView: UIView, DraggableCardDelegate {
     
     public var isLoop = false
     
-    private(set) public var currentCardIndex = 0
+    public var currentCardIndex = 0
     private(set) public var countOfCards = 0
     
     public weak var dataSource: KolodaViewDataSource? {
